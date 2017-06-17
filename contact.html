@@ -1,65 +1,52 @@
+<!DOCTYPE html>
 <html>
 <head>
 	<title>Contact Page</title>
+	<link href="css/index.css" type="text/css" rel="stylesheet" />
 	</head>
 	<body>
+	<div class="topnav" id="myTopnav">
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="contact.html">Contact</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
 	<h1>Contact Page</h1>
 
-	<style type="text/css">
-	* {
-	color: purple;}
-
- #submit {
-background: #B9DFFF;
-color: #fff;
-border: 1px solid #eee;
-border-radius: 20px;
-box-shadow: 5px 5px 5px #eee;
-text-shadow:none;
-
-}
-
-#submit:hover {
-background: #016ABC;
-color: #fff;
-border: 1px solid #eee;
-border-radius: 20px;
-box-shadow: 5px 5px 5px #eee;
-text-shadow:none;
-}
-
-fieldset{
-	width: 200px;
-	border: 1px solid #dcdcdc;
-	border-radius: 10px;
-	padding: 10px;
-	text-align: right;
-}
-
-#formtext{
-	text-align: center; 
-}
+	
 	</style>
 
-	<form action="http://">
+	<form action="contact.html" method="get">
 	
 	<fieldset>
 	<p><Send me a message! </p>
-	<div id="formtext">
+	<div id="inputs">
 
-		<textarea name="comments" name="contact me"> Email </textarea>
-		<br>
-		<textarea name="comments" name="contact me"> Name </textarea>
-		<br>
-		<textarea name="comments" name="contact me"> Short Message </textarea>
 
-		<br>
+<form id="myText" action="contact.html">
+Enter your name: <input type="text" id="field1"> <br><br>
 
-		<input type="submit" name="submit" value="submit" id="submit"/>
+
+  Press this!<input type="button" onclick="myFunction()" class ="button" id="submit">
+  <br><br>
+
+  Your name x2: <input type="text" id="field2"><br><br>
+
+
+
+<script>
+
+
+function myFunction() {
+    document.getElementById("field2").value =  document.getElementById("field1").value + document.getElementById("field1").value
+}
+</script>
 
 		
 		</form></fieldset>
 
 		<a href="index.html">Back to the Home Page</a>
+
+		<script src="script.js"></script>
 
 		</html>

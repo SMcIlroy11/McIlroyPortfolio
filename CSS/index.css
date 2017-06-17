@@ -1,0 +1,75 @@
+
+	
+@font-face {
+    font-family: 'introrustg-base2line';
+    src: url('Fonts/introheadr-base-webfont.woff') format('woff2'),
+         url('Fonts/introheadr-base-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+	h1 {
+
+	font-family: introrustg-base2line;
+	text-align: center; 	
+	color: white;
+	background-color:darkgreen;
+	opacity: 0.5;}
+	body {
+		background-color:lightblue;
+		font-family:; }
+
+
+ 	img.first{
+ 		width: 300px;
+ 		height: 200px; }
+ 		img.first {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+
+	img.second{
+		width: 300px;
+		height: 200px; }
+		
+	img.third{
+		width: 300px;
+		height: 200px; }
+ 	
+ 	img.third{
+-moz-box-shadow: 0 0 20px #777777;
+-webkit-box-shadow: 0 0 20px #777777;
+box-shadow: 0 0 20px #777777;}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+    display: none;
+}
+
+
+	</style>
